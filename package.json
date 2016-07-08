@@ -1,0 +1,20 @@
+{
+  "name": "node-restful-sample",
+  "version": "1.0.0",
+  "description": "Ejemplo de aplicacion RestFul",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RESTFul",
+    "ejemplo"
+  ],
+  "author": "XXXXX",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "underscore": "^1.8.3"
+  }
+}

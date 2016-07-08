@@ -1,0 +1,87 @@
+1. Creamos el directorio
+
+C:\>mkdir noderestf
+
+C:\>cd noderestf
+
+-------------------------------------
+
+2. nicializamos un proyecto node
+
+C:\noderestf>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (noderestf) node-restful-sample
+version: (1.0.0)
+description: Ejemplo de aplicacion RestFul
+entry point: (index.js)
+test command:
+git repository:
+keywords: RESTFul ejemplo
+author: XXXXX
+license: (ISC) MIT
+About to write to C:\noderestf\package.json:
+
+{
+  "name": "node-restful-sample",
+  "version": "1.0.0",
+  "description": "Ejemplo de aplicacion RestFul",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RESTFul",
+    "ejemplo"
+  ],
+  "author": "XXXXX",
+  "license": "MIT"
+}
+
+Is this ok? (yes) yes
+
+C:\noderestf>
+
+-------------------------------
+3. Verificamos el contenido del archivo de configuración
+
+C:\noderestf>type package.json
+{
+  "name": "node-restful-sample",
+  "version": "1.0.0",
+  "description": "Ejemplo de aplicacion RestFul",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RESTFul",
+    "ejemplo"
+  ],
+  "author": "XXXXX",
+  "license": "MIT"
+}
+
+-----------
+4. Instalamos express
+
+C:\noderestf>npm install express --save
+
+-------------
+5. Instalamos body-parser
+
+npm install body-parser --save
+
+-------------
+
+6. Instalamos underscore
+
+npm install underscore
